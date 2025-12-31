@@ -1,0 +1,14 @@
+#baseURL = 'https://example.org/'
+#languageCode = 'en-us'
+#title = 'My New Hugo Site'
+
+baseURL = 'http://localhost:5000'
+languageCode = 'en-us'
+title = 'aruka /b/'
+theme = 'GitHub Style'
+
+[params]
+  avatar = '/images/alicia.png'
+  github = 'Sakaki-Aruka'
+  location = 'Japan'
+  
