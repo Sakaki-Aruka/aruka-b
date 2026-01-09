@@ -8,7 +8,7 @@ title = 'aruka /b/'
 theme = 'GitHub Style'
 
 [params]
-  avatar = '/images/alicia.png'
+  avatar = 'alicia.png'
   github = 'Sakaki-Aruka'
   location = 'Japan'
   
