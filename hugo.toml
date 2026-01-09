@@ -11,4 +11,5 @@ theme = 'GitHub Style'
   avatar = 'alicia.png'
   github = 'Sakaki-Aruka'
   location = 'Japan'
-  
+  favicon = 'alicia.png'
+  author = 'Sakaki Aruka'
