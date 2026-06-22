@@ -2,14 +2,14 @@
 #languageCode = 'en-us'
 #title = 'My New Hugo Site'
 
-baseURL = 'http://localhost:5000'
+baseURL = 'https://b.aruka.online/'
 languageCode = 'en-us'
 title = 'aruka /b/'
 theme = 'GitHub Style'
 
 [params]
-  avatar = 'alicia.png'
+  avatar = '/alicia.png'
   github = 'Sakaki-Aruka'
   location = 'Japan'
-  favicon = 'alicia.png'
+  favicon = '/alicia.png'
   author = 'Sakaki Aruka'
