@@ -3,7 +3,7 @@
 #title = 'My New Hugo Site'
 
 baseURL = 'https://b.aruka.online/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'aruka /b/'
 theme = 'GitHub Style'
 

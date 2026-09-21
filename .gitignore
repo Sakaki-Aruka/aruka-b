@@ -1,3 +1,5 @@
 .idea/
 public/
+.cache/
+.hugo_build.lock
 .claude/
