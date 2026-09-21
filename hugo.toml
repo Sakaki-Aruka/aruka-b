@@ -13,3 +13,4 @@ theme = 'GitHub Style'
   location = 'Japan'
   favicon = '/alicia.png'
   author = 'Sakaki Aruka'
+  custom_css = ['css/callout.css']

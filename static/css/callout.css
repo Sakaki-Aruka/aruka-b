@@ -1,0 +1,34 @@
+/* GitHub 風アラート (> [!NOTE] など)。layouts/_markup/render-blockquote.html が出力する */
+.callout {
+  --callout-color: #0969da;
+  --callout-bg: rgba(9, 105, 218, 0.06);
+  margin: 0 0 16px;
+  padding: 8px 16px;
+  border-left: 0.25em solid var(--callout-color);
+  border-radius: 0 6px 6px 0;
+  background: var(--callout-bg);
+  color: var(--color-text-primary);
+}
+.callout-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 4px !important;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--callout-color);
+}
+.callout-title .octicon { fill: currentColor; flex: none; }
+.callout-body > :first-child { margin-top: 0; }
+.callout-body > :last-child { margin-bottom: 0; }
+
+.callout-tip       { --callout-color: #1a7f37; --callout-bg: rgba(26, 127, 55, 0.06); }
+.callout-important { --callout-color: #8250df; --callout-bg: rgba(130, 80, 223, 0.06); }
+.callout-warning   { --callout-color: #9a6700; --callout-bg: rgba(154, 103, 0, 0.08); }
+.callout-caution   { --callout-color: #cf222e; --callout-bg: rgba(207, 34, 46, 0.06); }
+
+[data-color-mode=dark] .callout            { --callout-color: #4493f8; --callout-bg: rgba(31, 111, 235, 0.10); }
+[data-color-mode=dark] .callout-tip        { --callout-color: #3fb950; --callout-bg: rgba(46, 160, 67, 0.10); }
+[data-color-mode=dark] .callout-important  { --callout-color: #ab7df8; --callout-bg: rgba(163, 113, 247, 0.10); }
+[data-color-mode=dark] .callout-warning    { --callout-color: #d29922; --callout-bg: rgba(187, 128, 9, 0.12); }
+[data-color-mode=dark] .callout-caution    { --callout-color: #f85149; --callout-bg: rgba(248, 81, 73, 0.10); }
