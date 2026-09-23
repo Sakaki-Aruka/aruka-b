@@ -32,3 +32,19 @@
 [data-color-mode=dark] .callout-important  { --callout-color: #ab7df8; --callout-bg: rgba(163, 113, 247, 0.10); }
 [data-color-mode=dark] .callout-warning    { --callout-color: #d29922; --callout-bg: rgba(187, 128, 9, 0.12); }
 [data-color-mode=dark] .callout-caution    { --callout-color: #f85149; --callout-bg: rgba(248, 81, 73, 0.10); }
+
+/* 折りたたみブロック ({{< details >}} ショートコード)。layouts/shortcodes/details.html が出力する */
+.markdown-details {
+  margin: 0 0 16px;
+  padding: 8px 16px;
+  border: 1px solid var(--color-border-default, #d0d7de);
+  border-radius: 6px;
+}
+.markdown-details > summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.markdown-details[open] > summary { margin-bottom: 8px; }
+.markdown-details > :last-child { margin-bottom: 0; }
+
+[data-color-mode=dark] .markdown-details { border-color: var(--color-border-default, #30363d); }

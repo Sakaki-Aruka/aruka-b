@@ -1,0 +1,16 @@
+{{- /*
+  折りたたみブロック。Markdown では次のように書く:
+
+    {{< details summary="Click to expand" >}}
+    ここに **Markdown** で本文を書く。
+    {{< /details >}}
+
+  summary を省略した場合は既定で "Details" になる。
+*/ -}}
+{{- $summary := .Get "summary" | default "Details" -}}
+<details class="markdown-details">
+<summary>{{ $summary }}</summary>
+
+{{ .Inner | $.Page.RenderString }}
+
+</details>
